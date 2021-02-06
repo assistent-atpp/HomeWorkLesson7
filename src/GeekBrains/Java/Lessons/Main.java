@@ -20,7 +20,7 @@ public class Main {
 	        cats[cat].eat(plate);
         }
     }
-   
+    // метод добавления еды в тарелку из класса мэйн
     static void addFoodToPlate (Plate plate, int food){
         plate.increaseFood(food);
     }
